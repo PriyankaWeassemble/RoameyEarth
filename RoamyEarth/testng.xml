@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test parallel="classes" thread-count="5" name="Test">
+    <classes>
+      <class name="dev.roamy.earth.TestClass.LoginPageFunctionality"/>
+      <class name="dev.roamy.earth.TestClass.ArtistTagFunctionality"/>
+      <class name="dev.roamy.earth.TestClass.EventTabFunctionality"/>
+      <class name="dev.roamy.earth.TestClass.DestinationsTagFunctionality"/>
+      <class name="dev.roamy.earth.TestClass.HomePage"/>
+      <class name="dev.roamy.earth.TestClass.FAQTagFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
